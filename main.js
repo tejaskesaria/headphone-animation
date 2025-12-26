@@ -8,9 +8,7 @@ ScrollSmoother.create({
 });
 
 
-let isShortHeight = window.screen.height < 1050;  // this is only tp make animation acccording to screen height but not requrired.. 
-                                                  // you can remove or change this value according to your requrement
-// console.log(window.screen.height);
+let isShortHeight = window.screen.height < 1050;  
 
 ScrollTrigger.matchMedia({
   "(min-width: 991px)": function () {
