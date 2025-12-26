@@ -296,5 +296,8 @@ footer .social{
   gap: 1rem;
 }
 @media screen and (max-width:768px) {
-  .w-full{width: 95%}
+  .w-full, #section1{width: 95%}
+  #section1 h1{font-size: 4rem;}
+  #section6{flex-direction: column;}
+  .feature-wrapper{grid-template-columns: 1fr; gap: 1rem;}
 }
