@@ -82,10 +82,10 @@ ScrollTrigger.matchMedia({
       ease: 'power1.inOut',
       immediateRender: false
     });
-
-    // content animation
-
-    gsap.from('#section2 .content-wrapper', {
+  }
+})
+//Content animations
+gsap.from('#section2 .content-wrapper', {
       scrollTrigger: {
         trigger: '#section2',
         start: '-50% bottom',
@@ -148,15 +148,10 @@ ScrollTrigger.matchMedia({
       },
       duration: 1.5
     });
-
-    gsap.from('#headphone', {
+ gsap.from('#headphone', {
       opacity: 0,
       scale: 0,
       duration: 1,
       delay: 1,
       ease: 'power1.inOut'
     })
-
-  }
-})
-
